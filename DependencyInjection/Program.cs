@@ -12,8 +12,9 @@ namespace DependencyInjection
         static void Main(string[] args)
         {
             //WihtoutDIEmployeeCall();
-
-            //UsingDependencyInjectionCall();
+            
+            //This is a call using dependency injection and unity container.
+            UsingDependencyInjectionCall();
 
             Console.ReadLine();
         }
