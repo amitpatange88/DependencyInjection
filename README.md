@@ -10,5 +10,19 @@
 
 <figure>
 <a href="http://www.tutorialsteacher.com/Content/images/ioc/ioc-step3.png" target="_blank">
-<img class="img-fluid" alt="dependency injection" src="../../Content/images/ioc/ioc-step3.png"></a>
+<img class="img-fluid" alt="dependency injection" src="http://www.tutorialsteacher.com/Content/images/ioc/ioc-step3.png"></a>
 </figure>
+
+<h2>Types of Dependency Injection</h2>
+<p>
+As you have learned above, the injector class injects the service (dependency) to the client (dependent). The injector class injects dependencies broadly in three ways: through constructor, through property, or through method.
+</p>
+<p>
+<strong>Constructor Injection:</strong> In the constructor injection, injector supplies service (dependency) through the client class constructor.
+</p>
+<p>
+<strong>Property Injection:</strong> In property injection (aka Setter Injection), injector supplies dependency through a public property of the client class.
+</p>
+<p>
+<strong>Method Injection:</strong> In this type of injection, client class implements an interface which declares method(s) to supply dependency and the injector uses this interface to supply dependency to the client class.
+</p>
