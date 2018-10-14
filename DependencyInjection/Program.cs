@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DependencyInjection.DInjection;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,24 @@ namespace DependencyInjection
     {
         static void Main(string[] args)
         {
+            //WihtoutDIEmployeeCall();
 
+            //UsingDependencyInjectionCall();
+
+            Console.ReadLine();
+        }
+
+        public static void WihtoutDIEmployeeCall()
+        {
+            EmployeeManager emp = new EmployeeManager();
+            emp.EmployeeDetails();
+        }
+
+        public static void UsingDependencyInjectionCall()
+        {
+            Dependency.Register();
+            EmployeeManagerDI emp = new EmployeeManagerDI();
+            emp.EmployeeDetails();
         }
     }
 }
