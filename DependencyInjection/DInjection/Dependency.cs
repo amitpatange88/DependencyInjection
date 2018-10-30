@@ -9,6 +9,7 @@ namespace DependencyInjection.DInjection
 {
     public class Dependency
     {
+        //create unity container object to store depdendecy objects in container. When require invoke them automatically.
         private static IUnityContainer _container = new UnityContainer();
 
         public static IUnityContainer Container

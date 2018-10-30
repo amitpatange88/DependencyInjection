@@ -19,3 +19,4 @@ C:\E\VS-Programs\DependencyInjection\DependencyInjection\bin\Debug\Unity.Interce
 C:\E\VS-Programs\DependencyInjection\DependencyInjection\bin\Debug\Unity.Interception.Configuration.pdb
 C:\E\VS-Programs\DependencyInjection\DependencyInjection\bin\Debug\Unity.RegistrationByConvention.pdb
 C:\E\VS-Programs\DependencyInjection\DependencyInjection\bin\Debug\Unity.ServiceLocation.pdb
+C:\E\VS-Programs\DependencyInjection\DependencyInjection\obj\Debug\DependencyInjection.csprojResolveAssemblyReference.cache
